@@ -20,14 +20,11 @@ RUN --mount=type=cache,target=/root/.yarn/berry/cache,sharing=locked \
   yarn install --immutable
 
 # Build. The site's address makes the canonical links, sitemap and social
-# images absolute. The assistant's provider is chosen here: the AI Gateway
-# when the AI_GATEWAY_API_KEY build secret is given (it isn't kept in the
-# image), else Ollama.
+# images absolute.
 FROM deps AS build
 COPY . .
 ARG NUXT_SITE_URL
-RUN --mount=type=secret,id=AI_GATEWAY_API_KEY,env=AI_GATEWAY_API_KEY \
-  yarn build
+RUN yarn build
 
 # Run: the server only. Nuxt Content writes its database in .output/server/
 # and Nitro its storage in .data/, hence their owner.

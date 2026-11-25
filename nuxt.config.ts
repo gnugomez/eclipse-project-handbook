@@ -35,9 +35,9 @@ export default defineNuxtConfig({
     features: { newsroom: false, membership: false, youtube: false, hubspot: false, assistant: true },
   },
 
-  // The assistant's model: one of Vercel's AI Gateway with its key in the
-  // environment (.env: AI_GATEWAY_API_KEY), else one Ollama serves here. The
+  // The assistant's model: one of Vercel's AI Gateway, whose key the server
+  // reads when it runs (AI_GATEWAY_API_KEY), so the image needs none. The
   // gateway's free tier allows gpt-5-mini, not the provider's default
   // (Claude); NUXT_ASSISTANT_MODEL sets another.
-  assistant: process.env.AI_GATEWAY_API_KEY ? { provider: 'gateway', model: 'openai/gpt-5-mini' } : { provider: 'ollama' },
+  assistant: { provider: 'gateway', model: 'openai/gpt-5-mini' },
 })

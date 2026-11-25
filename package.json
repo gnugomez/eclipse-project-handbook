@@ -10,7 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@eclipsefdn/solstice-nuxt": "https://gitlab.eclipse.org/eclipsefdn/software-dev/frameworks-and-tools/solstice-nuxt.git#head=feat/assistant-poc&workspace=@eclipsefdn/solstice-nuxt",
+    "@eclipsefdn/solstice-nuxt": "https://gitlab.eclipse.org/eclipsefdn/software-dev/frameworks-and-tools/solstice-nuxt.git#head=fix/assistant-ui-and-mdc&workspace=@eclipsefdn/solstice-nuxt",
     "@iconify-json/fa6-brands": "^1.2.6",
     "@iconify-json/fa6-regular": "^1.2.4",
     "@iconify-json/fa6-solid": "^1.2.4",

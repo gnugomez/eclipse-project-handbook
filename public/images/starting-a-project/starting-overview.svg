@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg height='260pt' preserveAspectRatio='xMidYMid meet' viewBox='0.00 0.00 262.00 260.00' width='262pt' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg'>
+<g class='graph' id='graph0' transform='scale(1 1) rotate(0) translate(4 256)'>
+
+<g class='node' id='node1'>
+<title>proposal</title>
+<polygon fill='white' points='102.62,-252 9.38,-252 9.38,-216 102.62,-216 102.62,-252' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='56' y='-229.72'>Project Proposal</text>
+</g>
+
+<g class='node' id='node2'>
+<title>community</title>
+<polygon fill='white' points='112,-180 0,-180 0,-144 112,-144 112,-180' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='56' y='-157.72'>Community Review</text>
+</g>
+
+<g class='edge' id='edge1'>
+<title>proposal&#45;&gt;community</title>
+<path d='M56,-215.7C56,-208.41 56,-199.73 56,-191.54' fill='none' stroke='black'/>
+<polygon fill='black' points='59.5,-191.62 56,-181.62 52.5,-191.62 59.5,-191.62' stroke='black'/>
+</g>
+
+<g class='node' id='node3'>
+<title>review</title>
+<polygon fill='white' points='104.12,-108 7.88,-108 7.88,-72 104.12,-72 104.12,-108' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='56' y='-85.72'>Creation Review</text>
+</g>
+
+<g class='edge' id='edge2'>
+<title>community&#45;&gt;review</title>
+<path d='M56,-143.7C56,-136.41 56,-127.73 56,-119.54' fill='none' stroke='black'/>
+<polygon fill='black' points='59.5,-119.62 56,-109.62 52.5,-119.62 59.5,-119.62' stroke='black'/>
+</g>
+
+<g class='node' id='node4'>
+<title>provision</title>
+<polygon fill='white' points='86.5,-36 25.5,-36 25.5,0 86.5,0 86.5,-36' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='56' y='-13.72'>Provision</text>
+</g>
+
+<g class='edge' id='edge3'>
+<title>review&#45;&gt;provision</title>
+<path d='M56,-71.7C56,-64.41 56,-55.73 56,-47.54' fill='none' stroke='black'/>
+<polygon fill='black' points='59.5,-47.62 56,-37.62 52.5,-47.62 59.5,-47.62' stroke='black'/>
+</g>
+
+<g class='node' id='node5'>
+<title>approval</title>
+<polygon fill='none' points='175.5,-252 120.5,-252 120.5,-216 175.5,-216 175.5,-252' stroke='none'/>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='148' y='-235.75'>EMO</text>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='148' y='-224.5'>Approval</text>
+</g>
+
+<g class='edge' id='edge4'>
+<title>approval&#45;&gt;community</title>
+<path d='M125.73,-216.05C114.26,-207.33 100.08,-196.54 87.51,-186.98' fill='none' stroke='grey'/>
+<polygon fill='grey' points='89.99,-184.46 79.91,-181.19 85.75,-190.03 89.99,-184.46' stroke='grey'/>
+</g>
+
+<g class='node' id='node6'>
+<title>trademark</title>
+<polygon fill='none' points='222.75,-180 163.25,-180 163.25,-144 222.75,-144 222.75,-180' stroke='none'/>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='193' y='-163.75'>Trademark</text>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='193' y='-152.5'>Review</text>
+</g>
+
+<g class='edge' id='edge5'>
+<title>trademark&#45;&gt;review</title>
+<path d='M163.27,-145.81C144.83,-136.39 120.79,-124.1 100.14,-113.55' fill='none' stroke='grey'/>
+<polygon fill='grey' points='101.86,-110.5 91.36,-109.07 98.67,-116.73 101.86,-110.5' stroke='grey'/>
+</g>
+
+
+
+<g class='node' id='node7'>
+<title>paperwork</title>
+<polygon fill='none' points='181.75,-108 122.25,-108 122.25,-72 181.75,-72 181.75,-108' stroke='none'/>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='152' y='-91.75'>Committer</text>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='152' y='-80.5'>Paperwork</text>
+</g>
+
+<g class='edge' id='edge6'>
+<title>paperwork&#45;&gt;provision</title>
+<path d='M128.76,-72.05C116.79,-63.33 102,-52.54 88.88,-42.98' fill='none' stroke='grey'/>
+<polygon fill='grey' points='91.06,-40.23 80.91,-37.17 86.93,-45.89 91.06,-40.23' stroke='grey'/>
+</g>
+</g>
+</svg>

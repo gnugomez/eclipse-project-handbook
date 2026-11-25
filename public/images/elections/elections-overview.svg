@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg height='440pt' preserveAspectRatio='xMidYMid meet' viewBox='0.00 0.00 301.62 439.75' width='302pt' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg'>
+<g class='graph' id='graph0' transform='scale(1 1) rotate(0) translate(4 435.75)'>
+
+<g class='node' id='node1'>
+<title>time</title>
+<polygon fill='white' points='152,-280 125,-262 152,-244 179,-262 152,-280' stroke='black'/>
+</g>
+
+<g class='node' id='node6'>
+<title>timedout</title>
+<polygon fill='white' points='64,-36 0,-36 0,0 64,0 64,-36' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='32' y='-13.72'>Timed out</text>
+</g>
+
+<g class='edge' id='edge4'>
+<title>time&#45;&gt;timedout</title>
+<path d='M142.6,-249.95C133.92,-239.39 121.04,-222.8 112,-207 81.1,-153.02 54.99,-84.78 41.61,-47.14' fill='none' stroke='black'/>
+<polygon fill='black' points='44.99,-46.2 38.38,-37.92 38.39,-48.52 44.99,-46.2' stroke='black'/>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='66.31' y='-171.32'>Not</text>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='66.31' y='-160.07'>enough</text>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='66.31' y='-148.82'>votes</text>
+</g>
+
+<g class='node' id='node7'>
+<title>complete</title>
+<polygon fill='white' points='182.88,-207 121.12,-207 121.12,-171 182.88,-171 182.88,-207' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='152' y='-184.72'>Complete</text>
+</g>
+
+<g class='edge' id='edge5'>
+<title>time&#45;&gt;complete</title>
+<path d='M152,-243.45C152,-235.97 152,-227.05 152,-218.65' fill='none' stroke='black'/>
+<polygon fill='black' points='155.5,-218.86 152,-208.86 148.5,-218.86 155.5,-218.86' stroke='black'/>
+</g>
+
+<g class='node' id='node10'>
+<title>rejected</title>
+<polygon fill='white' points='293.62,-36 236.38,-36 236.38,0 293.62,0 293.62,-36' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='265' y='-13.72'>Rejected</text>
+</g>
+
+<g class='edge' id='edge6'>
+<title>time&#45;&gt;rejected</title>
+<path d='M161.52,-250.01C170.28,-239.5 183.21,-222.94 192,-207 221.73,-153.1 245.05,-84.56 256.75,-46.91' fill='none' stroke='black'/>
+<polygon fill='black' points='259.98,-48.31 259.56,-37.72 253.29,-46.26 259.98,-48.31' stroke='black'/>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='241.09' y='-171.64'>Vetoed</text>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='241.09' y='-160.39'>by</text>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='241.09' y='-149.14'>committer</text>
+</g>
+
+<g class='node' id='node2'>
+<title>approval</title>
+<polygon fill='white' points='152,-134 108.25,-103.5 152,-73 195.75,-103.5 152,-134' stroke='black'/>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='152' y='-105.25'>PMC</text>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='152' y='-94'>Audits</text>
+</g>
+
+<g class='node' id='node8'>
+<title>approved</title>
+<polygon fill='white' points='146,-36 82,-36 82,0 146,0 146,-36' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='114' y='-13.72'>Approved</text>
+</g>
+
+<g class='edge' id='edge8'>
+<title>approval&#45;&gt;approved</title>
+<path d='M141.62,-79.68C137.02,-69.58 131.56,-57.59 126.72,-46.95' fill='none' stroke='black'/>
+<polygon fill='black' points='129.92,-45.52 122.59,-37.87 123.54,-48.42 129.92,-45.52' stroke='black'/>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='124.75' y='-60.02'>Yes</text>
+</g>
+
+<g class='node' id='node9'>
+<title>vetoed</title>
+<polygon fill='white' points='218,-36 164,-36 164,0 218,0 218,-36' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='191' y='-13.72'>Vetoed</text>
+</g>
+
+<g class='edge' id='edge9'>
+<title>approval&#45;&gt;vetoed</title>
+<path d='M162.45,-80.12C167.26,-69.83 173.01,-57.53 178.08,-46.66' fill='none' stroke='black'/>
+<polygon fill='black' points='181.17,-48.32 182.23,-37.78 174.83,-45.36 181.17,-48.32' stroke='black'/>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='166.3' y='-59.99'>No</text>
+</g>
+
+<g class='node' id='node3'>
+<title>oneweek</title>
+<polygon fill='none' points='106.75,-358.75 11.25,-358.75 11.25,-317 106.75,-317 106.75,-358.75' stroke='none'/>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='59' y='-345.25'>One week passes or</text>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='59' y='-334'>all committers</text>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='59' y='-322.75'>have voted</text>
+</g>
+
+<g class='edge' id='edge10'>
+<title>oneweek&#45;&gt;time</title>
+<path d='M83.92,-317.08C98.79,-305.27 117.43,-290.46 131.45,-279.33' fill='none' stroke='grey'/>
+<polygon fill='grey' points='133.47,-282.19 139.12,-273.23 129.11,-276.71 133.47,-282.19' stroke='grey'/>
+</g>
+
+<g class='node' id='node4'>
+<title>start</title>
+<polygon fill='white' points='183.25,-431.75 120.75,-431.75 120.75,-395.75 183.25,-395.75 183.25,-431.75' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='152' y='-409.48'>Nominate</text>
+</g>
+
+<g class='node' id='node5'>
+<title>ongoing</title>
+<polygon fill='white' points='179,-355.88 125,-355.88 125,-319.88 179,-319.88 179,-355.88' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='152' y='-333.6'>Vote</text>
+</g>
+
+<g class='edge' id='edge1'>
+<title>start&#45;&gt;ongoing</title>
+<path d='M152,-395.62C152,-387.28 152,-377.04 152,-367.57' fill='none' stroke='black'/>
+<polygon fill='black' points='155.5,-367.69 152,-357.69 148.5,-367.69 155.5,-367.69' stroke='black'/>
+</g>
+
+<g class='edge' id='edge3'>
+<title>ongoing&#45;&gt;time</title>
+<path d='M152,-319.74C152,-311.47 152,-301.32 152,-291.9' fill='none' stroke='black'/>
+<polygon fill='black' points='155.5,-292.07 152,-282.07 148.5,-292.07 155.5,-292.07' stroke='black'/>
+</g>
+
+<g class='edge' id='edge2'>
+<title>ongoing&#45;&gt;ongoing</title>
+<path d='M179.24,-345.25C189.02,-345.41 197,-342.95 197,-337.88 197,-335.02 194.48,-332.99 190.53,-331.79' fill='none' stroke='black'/>
+<polygon fill='black' points='191.08,-328.33 180.74,-330.67 190.28,-335.29 191.08,-328.33' stroke='black'/>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='231.12' y='-334'>Committers Vote</text>
+</g>
+
+<g class='edge' id='edge7'>
+<title>complete&#45;&gt;approval</title>
+<path d='M152,-170.7C152,-163.39 152,-154.54 152,-145.72' fill='none' stroke='black'/>
+<polygon fill='black' points='155.5,-145.79 152,-135.79 148.5,-145.79 155.5,-145.79' stroke='black'/>
+</g>
+</g>
+</svg>

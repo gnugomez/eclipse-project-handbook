@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg height='152pt' preserveAspectRatio='xMidYMid meet' viewBox='0.00 0.00 349.75 152.00' width='350pt' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg'>
+<g class='graph' id='graph0' transform='scale(1 1) rotate(0) translate(4 148)'>
+<g class='cluster' id='clust1'>
+<title>cluster_prereq</title>
+<polygon fill='none' points='96.5,-8 96.5,-136 333.75,-136 333.75,-8 96.5,-8' stroke='black' stroke-dasharray='1,5'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='215.12' y='-120.6'>Dependencies</text>
+</g>
+
+<g class='node' id='node1'>
+<title>root</title>
+<polygon fill='white' points='86.5,-79.25 0,-79.25 0,-42.75 86.5,-42.75 86.5,-79.25' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='43.25' y='-63.85'>Eclipse Project</text>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='43.25' y='-49.6'>Content</text>
+</g>
+
+<g class='node' id='node2'>
+<title>prereq1</title>
+<polygon fill='white' points='166.25,-52 104.5,-52 104.5,-16 166.25,-16 166.25,-52' stroke='black'/>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='135.38' y='-35.75'>Third party</text>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='135.38' y='-24.5'>Content</text>
+</g>
+
+<g class='edge' id='edge1'>
+<title>root&#45;&gt;prereq1</title>
+<path d='M86.94,-48.21C89.03,-47.58 91.13,-46.96 93.22,-46.33' fill='none' stroke='black'/>
+<polygon fill='black' points='94.15,-49.7 102.73,-43.48 92.14,-43 94.15,-49.7' stroke='black'/>
+</g>
+
+<g class='node' id='node3'>
+<title>prereq2</title>
+<polygon fill='white' points='166.25,-106 104.5,-106 104.5,-70 166.25,-70 166.25,-106' stroke='black'/>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='135.38' y='-89.75'>Third party</text>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='135.38' y='-78.5'>Content</text>
+</g>
+
+<g class='edge' id='edge2'>
+<title>root&#45;&gt;prereq2</title>
+<path d='M86.94,-73.79C89.03,-74.42 91.13,-75.04 93.22,-75.67' fill='none' stroke='black'/>
+<polygon fill='black' points='92.14,-79 102.73,-78.52 94.15,-72.3 92.14,-79' stroke='black'/>
+</g>
+
+<g class='node' id='node4'>
+<title>ref1</title>
+<polygon fill='white' points='246,-52 184.25,-52 184.25,-16 246,-16 246,-52' stroke='black'/>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='215.12' y='-35.75'>Third party</text>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='215.12' y='-24.5'>Content</text>
+</g>
+
+<g class='edge' id='edge3'>
+<title>prereq1&#45;&gt;ref1</title>
+<path d='M166.66,-34C168.59,-34 170.56,-34 172.53,-34' fill='none' stroke='black'/>
+<polygon fill='black' points='172.28,-37.5 182.28,-34 172.28,-30.5 172.28,-37.5' stroke='black'/>
+</g>
+
+<g class='node' id='node5'>
+<title>ref2</title>
+<polygon fill='white' points='246,-106 184.25,-106 184.25,-70 246,-70 246,-106' stroke='black'/>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='215.12' y='-89.75'>Third party</text>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='215.12' y='-78.5'>Content</text>
+</g>
+
+<g class='edge' id='edge4'>
+<title>prereq2&#45;&gt;ref2</title>
+<path d='M166.66,-88C168.59,-88 170.56,-88 172.53,-88' fill='none' stroke='black'/>
+<polygon fill='black' points='172.28,-91.5 182.28,-88 172.28,-84.5 172.28,-91.5' stroke='black'/>
+</g>
+
+<g class='node' id='node6'>
+<title>ref3</title>
+<polygon fill='white' points='325.75,-52 264,-52 264,-16 325.75,-16 325.75,-52' stroke='black'/>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='294.88' y='-35.75'>Third party</text>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='294.88' y='-24.5'>Content</text>
+</g>
+
+<g class='edge' id='edge5'>
+<title>ref2&#45;&gt;ref3</title>
+<path d='M242.45,-69.72C247.46,-66.24 252.78,-62.54 258.03,-58.9' fill='none' stroke='black'/>
+<polygon fill='black' points='259.86,-61.89 266.07,-53.31 255.86,-56.14 259.86,-61.89' stroke='black'/>
+</g>
+
+<g class='node' id='node7'>
+<title>ref4</title>
+<polygon fill='white' points='325.75,-106 264,-106 264,-70 325.75,-70 325.75,-106' stroke='black'/>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='294.88' y='-89.75'>Third party</text>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='294.88' y='-78.5'>Content</text>
+</g>
+
+<g class='edge' id='edge6'>
+<title>ref2&#45;&gt;ref4</title>
+<path d='M246.41,-88C248.34,-88 250.31,-88 252.28,-88' fill='none' stroke='black'/>
+<polygon fill='black' points='252.03,-91.5 262.03,-88 252.03,-84.5 252.03,-91.5' stroke='black'/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,29 @@
+title: 'Eclipse Project Handbook'
+description: 'How open source projects are proposed, run and released at the Eclipse Foundation: the Eclipse Development Process in practice, for committers and project leads.'
+keywords:
+  - 'Eclipse Project Handbook'
+  - Eclipse Development Process
+  - Eclipse Foundation
+  - open source projects
+  - committers
+logo: /logo.svg
+logoInverse: /logo-inverse.svg
+logoWidth: 140
+seoTitleSuffix: ' | Eclipse Project Handbook'
+socialImage:
+  backgroundImage: /social-image.png
+  eyebrow: 'Eclipse Project Handbook'
+socials:
+  - name: LinkedIn
+    icon: fa6-brands:linkedin
+    url: https://www.linkedin.com/company/eclipse-foundation/
+  - name: YouTube
+    icon: fa6-brands:youtube
+    url: https://www.youtube.com/@EclipseFdn
+assistant:
+  name: Handbook assistant
+  intro: 'Ask how things work for an Eclipse open source project: starting one, committers, releases, intellectual property. The answers come from the handbook, with links to its pages.'
+  questions:
+    - How do I propose a new Eclipse open source project?
+    - How do committer elections work?
+    - What is a release review, and when does my project need one?

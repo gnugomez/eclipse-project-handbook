@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg height='63pt' preserveAspectRatio='xMidYMid meet' viewBox='0.00 0.00 347.00 63.38' width='347pt' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg'>
+<g class='graph' id='graph0' transform='scale(1 1) rotate(0) translate(4 59.38)'>
+
+<g class='node' id='node1'>
+<title>developers</title>
+<polygon fill='white' points='69.25,-50.52 0,-50.52 0,-14.02 69.25,-14.02 69.25,-50.52' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='34.62' y='-35.12'>Developer</text>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='34.62' y='-20.87'>community</text>
+</g>
+
+<g class='node' id='node2'>
+<title>adopters</title>
+<polygon fill='white' points='209,-50.52 139.75,-50.52 139.75,-14.02 209,-14.02 209,-50.52' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='174.38' y='-35.12'>Adopter</text>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='174.38' y='-20.87'>community</text>
+</g>
+
+<g class='edge' id='edge4'>
+<title>developers&#45;&gt;adopters</title>
+<path d='M69.68,-32.27C87.36,-32.27 109.2,-32.27 128.26,-32.27' fill='none' stroke='black'/>
+<polygon fill='black' points='128.2,-35.77 138.2,-32.27 128.2,-28.77 128.2,-35.77' stroke='black'/>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='104.5' y='-34.02'>supports</text>
+</g>
+
+<g class='edge' id='edge3'>
+<title>adopters&#45;&gt;developers</title>
+<path d='M139.41,-17.86C133.61,-15.96 127.58,-14.31 121.75,-13.27 106.65,-10.58 102.35,-10.58 87.25,-13.27 85.06,-13.66 82.85,-14.13 80.63,-14.67' fill='none' stroke='black'/>
+<polygon fill='black' points='79.68,-11.31 71.04,-17.44 81.62,-18.03 79.68,-11.31' stroke='black'/>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='94' y='-1.75'>feeds</text>
+</g>
+
+<g class='node' id='node3'>
+<title>users</title>
+<polygon fill='white' points='339,-50.52 269.75,-50.52 269.75,-14.02 339,-14.02 339,-50.52' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='304.38' y='-35.12'>User</text>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='304.38' y='-20.87'>community</text>
+</g>
+
+<g class='edge' id='edge2'>
+<title>adopters&#45;&gt;users</title>
+<path d='M209.37,-40.57C215.22,-41.69 221.26,-42.66 227,-43.27 237.94,-44.42 240.81,-44.42 251.75,-43.27 253.81,-43.05 255.92,-42.78 258.03,-42.48' fill='none' stroke='black'/>
+<polygon fill='black' points='258.61,-45.93 267.89,-40.82 257.44,-39.03 258.61,-45.93' stroke='black'/>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='239.38' y='-45.88'>grows</text>
+</g>
+
+<g class='edge' id='edge1'>
+<title>users&#45;&gt;adopters</title>
+<path d='M269.25,-32.27C254.33,-32.27 236.62,-32.27 220.62,-32.27' fill='none' stroke='black'/>
+<polygon fill='black' points='220.85,-28.77 210.85,-32.27 220.85,-35.77 220.85,-28.77' stroke='black'/>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='228.99' y='-22.77'>feeds</text>
+</g>
+</g>
+</svg>

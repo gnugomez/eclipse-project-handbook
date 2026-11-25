@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg height='189pt' preserveAspectRatio='xMidYMid meet' viewBox='0.00 0.00 476.00 189.00' width='476pt' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg'>
+<g class='graph' id='graph0' transform='scale(1 1) rotate(0) translate(4 185)'>
+
+<g class='node' id='node1'>
+<title>pmc</title>
+<polygon fill='white' points='144,-108.5 0,-108.5 0,-72 144,-72 144,-108.5' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='72' y='-93.1'>PMC Review</text>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='72' y='-78.85'>and approval</text>
+</g>
+
+<g class='node' id='node4'>
+<title>success</title>
+<polygon fill='white' points='306,-36 162,-36 162,0 306,0 306,-36' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='234' y='-13.72'>Declare Success!</text>
+</g>
+
+<g class='edge' id='edge4'>
+<title>pmc&#45;&gt;success</title>
+<path d='M112.88,-71.52C134.24,-62.26 160.58,-50.84 183.24,-41.01' fill='none' stroke='black'/>
+<polygon fill='black' points='184.52,-44.27 192.31,-37.08 181.74,-37.85 184.52,-44.27' stroke='black'/>
+</g>
+
+<g class='node' id='node2'>
+<title>start</title>
+<polygon fill='white' points='306,-181 162,-181 162,-144.5 306,-144.5 306,-181' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='234' y='-165.6'>Initiate</text>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='234' y='-151.35'>Progress Review</text>
+</g>
+
+<g class='edge' id='edge1'>
+<title>start&#45;&gt;pmc</title>
+<path d='M193.54,-144.14C172.18,-134.85 145.75,-123.35 123,-113.45' fill='none' stroke='black'/>
+<polygon fill='black' points='124.46,-110.26 113.9,-109.48 121.67,-116.68 124.46,-110.26' stroke='black'/>
+</g>
+
+<g class='node' id='node3'>
+<title>community</title>
+<polygon fill='white' points='306,-108.25 162,-108.25 162,-72.25 306,-72.25 306,-108.25' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='234' y='-85.97'>Community Review</text>
+</g>
+
+<g class='edge' id='edge3'>
+<title>start&#45;&gt;community</title>
+<path d='M234,-144.32C234,-136.98 234,-128.24 234,-119.99' fill='none' stroke='black'/>
+<polygon fill='black' points='237.5,-119.99 234,-109.99 230.5,-119.99 237.5,-119.99' stroke='black'/>
+</g>
+
+<g class='node' id='node5'>
+<title>emo</title>
+<polygon fill='white' points='468,-108.5 324,-108.5 324,-72 468,-72 468,-108.5' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='396' y='-93.1'>EMO Review</text>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='396' y='-78.85'>and Approval</text>
+</g>
+
+<g class='edge' id='edge2'>
+<title>start&#45;&gt;emo</title>
+<path d='M274.46,-144.14C295.82,-134.85 322.25,-123.35 345,-113.45' fill='none' stroke='black'/>
+<polygon fill='black' points='346.33,-116.68 354.1,-109.48 343.54,-110.26 346.33,-116.68' stroke='black'/>
+</g>
+
+<g class='edge' id='edge6'>
+<title>community&#45;&gt;success</title>
+<path d='M234,-71.88C234,-64.57 234,-55.86 234,-47.64' fill='none' stroke='black'/>
+<polygon fill='black' points='237.5,-47.68 234,-37.68 230.5,-47.68 237.5,-47.68' stroke='black'/>
+</g>
+
+<g class='edge' id='edge5'>
+<title>emo&#45;&gt;success</title>
+<path d='M355.12,-71.52C333.76,-62.26 307.42,-50.84 284.76,-41.01' fill='none' stroke='black'/>
+<polygon fill='black' points='286.26,-37.85 275.69,-37.08 283.48,-44.27 286.26,-37.85' stroke='black'/>
+</g>
+</g>
+</svg>

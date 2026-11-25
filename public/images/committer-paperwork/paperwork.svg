@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg height='441pt' preserveAspectRatio='xMidYMid meet' viewBox='0.00 0.00 366.75 440.50' width='367pt' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg'>
+<g class='graph' id='graph0' transform='scale(1 1) rotate(0) translate(4 436.5)'>
+
+<g class='node' id='node1'>
+<title>start</title>
+<polygon fill='white' points='108.25,-432.5 54.25,-432.5 54.25,-396.5 108.25,-396.5 108.25,-432.5' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='81.25' y='-410.23'>Start</text>
+</g>
+
+<g class='node' id='node4'>
+<title>is_committer</title>
+<polygon fill='white' points='81.25,-377.5 0,-347 81.25,-316.5 162.5,-347 81.25,-377.5' stroke='black'/>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='81.25' y='-348.75'>Are you already</text>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='81.25' y='-337.5'>a committer?</text>
+</g>
+
+<g class='edge' id='edge1'>
+<title>start&#45;&gt;is_committer</title>
+<path d='M81.25,-396.29C81.25,-394.1 81.25,-391.79 81.25,-389.41' fill='none' stroke='black'/>
+<polygon fill='black' points='84.75,-389.53 81.25,-379.53 77.75,-389.53 84.75,-389.53' stroke='black'/>
+</g>
+
+<g class='node' id='node2'>
+<title>ica</title>
+<polygon fill='white' points='201.25,-91 113.25,-91 113.25,-55 201.25,-55 201.25,-91' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='157.25' y='-68.72'>Submit an ICA</text>
+</g>
+
+<g class='node' id='node3'>
+<title>final</title>
+<polygon fill='white' points='195.62,-36 118.88,-36 118.88,0 195.62,0 195.62,-36' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='157.25' y='-13.72'>You&#39;re done!</text>
+</g>
+
+<g class='edge' id='edge8'>
+<title>ica&#45;&gt;final</title>
+<path d='M157.25,-54.65C157.25,-52.33 157.25,-49.92 157.25,-47.48' fill='none' stroke='black'/>
+<polygon fill='black' points='160.75,-47.73 157.25,-37.73 153.75,-47.73 160.75,-47.73' stroke='black'/>
+</g>
+
+<g class='edge' id='edge2'>
+<title>is_committer&#45;&gt;final</title>
+<path d='M74.09,-318.8C69.83,-300.25 65.25,-275.06 65.25,-252.5 65.25,-252.5 65.25,-252.5 65.25,-72 65.25,-49.69 85.82,-36.63 107.51,-29.05' fill='none' stroke='black'/>
+<polygon fill='black' points='108.53,-32.4 117.05,-26.12 106.47,-25.71 108.53,-32.4' stroke='black'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='75.38' y='-150.95'>Yes</text>
+</g>
+
+<g class='node' id='node5'>
+<title>is_member</title>
+<polygon fill='white' points='192.25,-282 93,-251.5 192.25,-221 291.5,-251.5 192.25,-282' stroke='black'/>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='192.25' y='-253.25'>Do you work for</text>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='192.25' y='-242'>a member company?</text>
+</g>
+
+<g class='edge' id='edge3'>
+<title>is_committer&#45;&gt;is_member</title>
+<path d='M105.88,-325.25C121.11,-312.42 140.89,-295.76 157.67,-281.63' fill='none' stroke='black'/>
+<polygon fill='black' points='159.59,-284.59 164.98,-275.47 155.08,-279.24 159.59,-284.59' stroke='black'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='151.65' y='-294.2'>No</text>
+</g>
+
+<g class='edge' id='edge5'>
+<title>is_member&#45;&gt;ica</title>
+<path d='M163.82,-229.46C151.14,-218.28 137.54,-203.37 130.75,-186.5 120.62,-161.35 124.37,-151.85 130.75,-125.5 132.74,-117.26 136.3,-108.87 140.17,-101.31' fill='none' stroke='black'/>
+<polygon fill='black' points='143.2,-103.06 144.99,-92.62 137.08,-99.67 143.2,-103.06' stroke='black'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='139' y='-150.95'>No</text>
+</g>
+
+<g class='node' id='node6'>
+<title>has_mcca</title>
+<polygon fill='white' points='257.25,-186.5 155.75,-156 257.25,-125.5 358.75,-156 257.25,-186.5' stroke='black'/>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='257.25' y='-157.75'>Has your company</text>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='257.25' y='-146.5'>provided an MCCA?</text>
+</g>
+
+<g class='edge' id='edge4'>
+<title>is_member&#45;&gt;has_mcca</title>
+<path d='M209.33,-225.93C216.73,-215.28 225.53,-202.63 233.55,-191.09' fill='none' stroke='black'/>
+<polygon fill='black' points='236.36,-193.18 239.2,-182.97 230.61,-189.18 236.36,-193.18' stroke='black'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='238.77' y='-198.7'>Yes</text>
+</g>
+
+<g class='edge' id='edge7'>
+<title>has_mcca&#45;&gt;ica</title>
+<path d='M230.45,-133.29C217.16,-122.53 201.07,-109.49 187.35,-98.38' fill='none' stroke='black'/>
+<polygon fill='black' points='189.89,-95.93 179.92,-92.36 185.48,-101.37 189.89,-95.93' stroke='black'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='215.5' y='-103.2'>No</text>
+</g>
+
+<g class='edge' id='edge6'>
+<title>has_mcca&#45;&gt;final</title>
+<path d='M248.9,-127.71C241.34,-106.23 228.56,-76.44 210.25,-55 206.69,-50.83 202.54,-46.93 198.15,-43.36' fill='none' stroke='black'/>
+<polygon fill='black' points='200.26,-40.56 190.15,-37.39 196.07,-46.17 200.26,-40.56' stroke='black'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='243.1' y='-67.95'>Yes</text>
+</g>
+</g>
+</svg>

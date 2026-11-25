@@ -1,0 +1,18 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./.nuxt/tsconfig.app.json" },
+    { "path": "./.nuxt/tsconfig.server.json" },
+    { "path": "./.nuxt/tsconfig.shared.json" },
+    { "path": "./.nuxt/tsconfig.node.json" }
+  ],
+  // nuxt-component-meta (Studio's block forms) extends this file: without strict
+  // null checks it drops the JSDoc of blocks whose props are all optional, and
+  // without Bundler resolution it doesn't read the package's `exports` (the
+  // types a site's blocks import from solstice-nuxt).
+  "compilerOptions": {
+    "strict": true,
+    "module": "preserve",
+    "moduleResolution": "bundler"
+  }
+}

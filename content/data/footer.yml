@@ -1,0 +1,42 @@
+description: 'How open source projects are proposed, run and released at the Eclipse Foundation.'
+socialsHeading: 'Follow us:'
+sections:
+  - id: footer-eclipse-foundation
+    heading: Eclipse Foundation
+    links:
+      - text: About
+        href: https://www.eclipse.org/org/
+      - text: Projects
+        href: https://projects.eclipse.org/
+      - text: Membership
+        href: https://www.eclipse.org/membership/
+  - id: footer-legal
+    heading: Legal
+    showManageCookies: true
+    links:
+      - text: Privacy Policy
+        href: https://www.eclipse.org/legal/privacy/
+      - text: Terms of Use
+        href: https://www.eclipse.org/legal/terms-of-use/
+      - text: Code of Conduct
+        href: https://www.eclipse.org/org/documents/Community_Code_of_Conduct.php
+  - id: footer-site
+    heading: 'Eclipse Project Handbook'
+    links:
+      - text: Overview
+        href: /overview/
+      - text: Project checklist
+        href: /project-checklist/
+      - text: Glossary
+        href: /glossary/
+      - text: Getting help
+        href: /getting-help/
+      - text: Change log
+        href: /change-log/
+manageCookiesText: Manage Cookies
+copyright: Copyright © Eclipse Foundation AISBL. All Rights Reserved.
+colorMode:
+  label: Colour mode
+  system: System
+  light: Light
+  dark: Dark

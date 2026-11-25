@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg height='337pt' preserveAspectRatio='xMidYMid meet' viewBox='0.00 0.00 159.52 337.00' width='160pt' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg'>
+<g class='graph' id='graph0' transform='scale(1 1) rotate(0) translate(4 333)'>
+
+<g class='node' id='node1'>
+<title>preproposal</title>
+<polygon fill='white' points='89.9,-329 13.15,-329 13.15,-293 89.9,-293 89.9,-329' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='51.52' y='-306.73'>Pre&#45;Proposal</text>
+</g>
+
+<g class='node' id='node2'>
+<title>proposal</title>
+<polygon fill='white' points='80.15,-257 22.9,-257 22.9,-221 80.15,-221 80.15,-257' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='51.52' y='-234.72'>Proposal</text>
+</g>
+
+<g class='edge' id='edge1'>
+<title>preproposal&#45;&gt;proposal</title>
+<path d='M51.52,-292.53C51.52,-284.55 51.52,-276.56 51.52,-268.57' fill='none' stroke='black'/>
+<polygon fill='black' points='55.02,-268.79 51.52,-258.79 48.02,-268.79 55.02,-268.79' stroke='black'/>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='71.02' y='-282.31'>EMO</text>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='71.02' y='-271.06'>Approval</text>
+</g>
+
+<g class='node' id='node3'>
+<title>incubation</title>
+<polygon fill='white' points='84.65,-185 18.4,-185 18.4,-149 84.65,-149 84.65,-185' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='51.52' y='-162.72'>Incubation</text>
+</g>
+
+<g class='edge' id='edge2'>
+<title>proposal&#45;&gt;incubation</title>
+<path d='M51.52,-220.53C51.52,-212.55 51.52,-204.56 51.52,-196.57' fill='none' stroke='black'/>
+<polygon fill='black' points='55.02,-196.79 51.52,-186.79 48.02,-196.79 55.02,-196.79' stroke='black'/>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='69.15' y='-210.31'>Creation</text>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='69.15' y='-199.06'>Review</text>
+</g>
+
+<g class='edge' id='edge6'>
+<title>incubation:e&#45;&gt;incubation:e</title>
+<path d='M84.65,-167C95.69,-176 117.77,-176 117.77,-167 117.77,-160.32 105.61,-158.6 94.82,-161.83' fill='none' stroke='black'/>
+<polygon fill='black' points='93.33,-158.67 86,-166.31 96.5,-164.91 93.33,-158.67' stroke='black'/>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='134.65' y='-168.75'>Progress</text>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='134.65' y='-157.5'>Review</text>
+</g>
+
+<g class='node' id='node4'>
+<title>mature</title>
+<polygon fill='white' points='78.52,-113 24.52,-113 24.52,-77 78.52,-77 78.52,-113' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='51.52' y='-90.72'>Mature</text>
+</g>
+
+<g class='edge' id='edge3'>
+<title>incubation&#45;&gt;mature</title>
+<path d='M51.52,-148.53C51.52,-140.55 51.52,-132.56 51.52,-124.57' fill='none' stroke='black'/>
+<polygon fill='black' points='55.02,-124.79 51.52,-114.79 48.02,-124.79 55.02,-124.79' stroke='black'/>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='74.77' y='-138.31'>Graduation</text>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='74.77' y='-127.06'>Review</text>
+</g>
+
+<g class='node' id='node5'>
+<title>archived</title>
+<polygon fill='white' points='81.65,-36 21.4,-36 21.4,0 81.65,0 81.65,-36' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='51.52' y='-13.72'>Archived</text>
+</g>
+
+<g class='edge' id='edge5'>
+<title>incubation&#45;&gt;archived</title>
+<path d='M29.58,-148.85C19.8,-139.32 9.33,-126.77 4.15,-113 -1.49,-98.03 -1.16,-92.09 4.15,-77 8.28,-65.26 15.84,-54.13 23.72,-44.77' fill='none' stroke='black'/>
+<polygon fill='black' points='26.18,-47.27 30.27,-37.49 20.98,-42.58 26.18,-47.27' stroke='black'/>
+</g>
+
+<g class='edge' id='edge7'>
+<title>mature:e&#45;&gt;mature:e</title>
+<path d='M78.52,-95C87.52,-104 105.52,-104 105.52,-95 105.52,-88.74 96.82,-86.84 88.49,-89.28' fill='none' stroke='black'/>
+<polygon fill='black' points='86.77,-86.23 79.83,-94.25 90.25,-92.31 86.77,-86.23' stroke='black'/>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='122.4' y='-96.75'>Progress</text>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='122.4' y='-85.5'>Review</text>
+</g>
+
+<g class='edge' id='edge4'>
+<title>mature&#45;&gt;archived</title>
+<path d='M51.52,-76.62C51.52,-67.93 51.52,-57.35 51.52,-47.58' fill='none' stroke='black'/>
+<polygon fill='black' points='55.02,-47.76 51.52,-37.76 48.02,-47.76 55.02,-47.76' stroke='black'/>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='37.27' y='-58.25'>Termination</text>
+<text font-family='Times,serif' font-size='10.00' text-anchor='middle' x='37.27' y='-47'>Review</text>
+</g>
+</g>
+</svg>

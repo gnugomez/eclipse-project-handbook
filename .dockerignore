@@ -1,0 +1,19 @@
+# Built or installed in the image.
+.git
+node_modules
+.nuxt
+.output
+.data
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+
+# Not read by the build: changing them keeps the cached layers.
+Dockerfile
+.dockerignore
+
+# Local only: the environment goes to the container, not the image.
+.env
+.env.*
+**/.DS_Store
+*.log

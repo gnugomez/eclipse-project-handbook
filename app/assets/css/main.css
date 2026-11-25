@@ -1,0 +1,5 @@
+/* Tailwind, and solstice-nuxt's default theme: its tokens,
+   its base styles and its class maps (which it adds to Tailwind's sources).
+   The site's own tokens (a brand colour, a font) go after the imports. */
+@import "tailwindcss";
+@import "@eclipsefdn/solstice-nuxt/themes/default/main.css";

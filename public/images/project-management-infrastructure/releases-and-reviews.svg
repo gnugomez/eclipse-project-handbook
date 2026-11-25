@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg height='115pt' preserveAspectRatio='xMidYMid meet' viewBox='0.00 0.00 244.62 114.50' width='245pt' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg'>
+<g class='graph' id='graph0' transform='scale(1 1) rotate(0) translate(4 110.5)'>
+
+<g class='node' id='node1'>
+<title>review</title>
+<polygon fill='white' points='146.62,-36 92.62,-36 92.62,0 146.62,0 146.62,-36' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='119.62' y='-13.72'>Review</text>
+</g>
+
+<g class='node' id='node2'>
+<title>proposal</title>
+<polygon fill='white' points='57.25,-106.5 0,-106.5 0,-70.5 57.25,-70.5 57.25,-106.5' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='28.62' y='-84.22'>Proposal</text>
+</g>
+
+<g class='edge' id='edge1'>
+<title>proposal&#45;&gt;review</title>
+<path d='M51.59,-70.21C62.47,-62.02 75.66,-52.09 87.52,-43.17' fill='none' stroke='black'/>
+<polygon fill='black' points='89.58,-46 95.46,-37.19 85.37,-40.41 89.58,-46' stroke='black'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='93.58' y='-48.2'>1:1</text>
+</g>
+
+<g class='node' id='node3'>
+<title>project</title>
+<polygon fill='white' points='146.62,-106.5 92.62,-106.5 92.62,-70.5 146.62,-70.5 146.62,-106.5' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='119.62' y='-84.22'>Project</text>
+</g>
+
+<g class='edge' id='edge4'>
+<title>proposal&#45;&gt;project</title>
+<path d='M57.67,-88.5C65.06,-88.5 73.12,-88.5 80.91,-88.5' fill='none' stroke='black'/>
+<polygon fill='black' points='80.89,-92 90.89,-88.5 80.89,-85 80.89,-92' stroke='black'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='74.94' y='-94.7'>1:1</text>
+</g>
+
+<g class='edge' id='edge2'>
+<title>project&#45;&gt;review</title>
+<path d='M119.62,-70.21C119.62,-63.27 119.62,-55.07 119.62,-47.3' fill='none' stroke='black'/>
+<polygon fill='black' points='123.13,-47.56 119.63,-37.56 116.13,-47.56 123.13,-47.56' stroke='black'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='128.25' y='-48.2'>1:*</text>
+</g>
+
+<g class='node' id='node4'>
+<title>release</title>
+<polygon fill='white' points='236.62,-106.5 182.62,-106.5 182.62,-70.5 236.62,-70.5 236.62,-106.5' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='209.62' y='-84.22'>Release</text>
+</g>
+
+<g class='edge' id='edge5'>
+<title>project&#45;&gt;release</title>
+<path d='M147.12,-88.5C154.62,-88.5 162.89,-88.5 170.89,-88.5' fill='none' stroke='black'/>
+<polygon fill='black' points='170.79,-92 180.79,-88.5 170.79,-85 170.79,-92' stroke='black'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='164.62' y='-94.7'>1:*</text>
+</g>
+
+<g class='edge' id='edge3'>
+<title>release&#45;&gt;review</title>
+<path d='M186.91,-70.21C176.15,-62.02 163.11,-52.09 151.38,-43.17' fill='none' stroke='black'/>
+<polygon fill='black' points='153.61,-40.47 143.53,-37.2 149.37,-46.04 153.61,-40.47' stroke='black'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='191.08' y='-48.2'>1:0..1</text>
+</g>
+</g>
+</svg>

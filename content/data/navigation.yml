@@ -1,0 +1,67 @@
+main:
+  - text: Getting started
+    children:
+      - text: Overview
+        href: /overview/
+      - text: Starting a project
+        href: /starting-a-project/
+      - text: Incubation
+        href: /incubation/
+      - text: Project checklist
+        href: /project-checklist/
+      - text: Getting help
+        href: /getting-help/
+  - text: People
+    children:
+      - text: Project roles
+        href: /project-roles/
+      - text: Contributing
+        href: /contributing/
+      - text: Elections
+        href: /elections/
+      - text: Committer paperwork
+        href: /committer-paperwork/
+      - text: Identity verification
+        href: /identity-verification/
+      - text: Community
+        href: /community/
+  - text: Running a project
+    children:
+      - text: Resources and services
+        href: /project-resources-and-services/
+      - text: Project Management Infrastructure
+        href: /project-management-infrastructure/
+      - text: Releases and reviews
+        href: /releases-and-reviews/
+      - text: Vulnerabilities
+        href: /vulnerabilities/
+      - text: Software Bill of Materials
+        href: /software-bill-of-materials/
+      - text: Project branding
+        href: /project-branding/
+      - text: Promoting your project
+        href: /promoting-your-project/
+  - text: IP and legal
+    children:
+      - text: Intellectual property
+        href: /intellectual-property/
+      - text: Using artificial intelligence
+        href: /artificial-intelligence/
+      - text: Legal documentation
+        href: /legal-documentation/
+      - text: Legal documentation for plug-ins
+        href: /legal-documentation-for-plug-ins/
+      - text: Data protection impact assessment
+        href: /data-protection-impact-assessment/
+  - text: Process
+    children:
+      - text: Eclipse Foundation Development Process
+        href: /development-process/
+      - text: Specifications
+        href: /specifications/
+      - text: Glossary
+        href: /glossary/
+      - text: Change log
+        href: /change-log/
+      - text: Notices
+        href: /notices/

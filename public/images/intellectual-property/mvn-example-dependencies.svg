@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg height='154pt' preserveAspectRatio='xMidYMid meet' viewBox='0.00 0.00 455.75 154.00' width='456pt' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg'>
+<g class='graph' id='graph0' transform='scale(1 1) rotate(0) translate(4 150)'>
+<g class='cluster' id='clust1'>
+<title>cluster_dependencies</title>
+<polygon fill='none' points='149.25,-8 149.25,-138 439.75,-138 439.75,-8 149.25,-8' stroke='black' stroke-dasharray='1,5'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='294.5' y='-122.6'>Dependencies</text>
+</g>
+
+<g class='node' id='node1'>
+<title>projectcode</title>
+<polygon fill='white' points='94.75,-80.25 0,-80.25 0,-43.75 94.75,-43.75 94.75,-80.25' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='47.38' y='-64.85'>org.eclipse.dash:</text>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='47.38' y='-50.6'>good&#45;stuff:0.0.1</text>
+</g>
+
+<g class='node' id='node2'>
+<title>httpclient</title>
+<polygon fill='white' points='284.25,-80.25 157.25,-80.25 157.25,-43.75 284.25,-43.75 284.25,-80.25' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='220.75' y='-64.85'>commons&#45;httpclient:</text>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='220.75' y='-50.6'>commons&#45;httpclient:3.1</text>
+</g>
+
+<g class='edge' id='edge1'>
+<title>projectcode&#45;&gt;httpclient</title>
+<path d='M95.2,-62C110.81,-62 128.6,-62 145.76,-62' fill='none' stroke='black'/>
+<polygon fill='black' points='145.4,-65.5 155.4,-62 145.4,-58.5 145.4,-65.5' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='122.5' y='-64.85'>requires</text>
+</g>
+
+<g class='node' id='node3'>
+<title>logging</title>
+<polygon fill='white' points='431.75,-52.25 303.25,-52.25 303.25,-15.75 431.75,-15.75 431.75,-52.25' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='367.5' y='-36.85'>commons&#45;logging:</text>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='367.5' y='-22.6'>commons&#45;logging:1.0.4</text>
+</g>
+
+<g class='edge' id='edge2'>
+<title>httpclient&#45;&gt;logging</title>
+<path d='M284.4,-49.88C286.79,-49.42 289.19,-48.96 291.59,-48.49' fill='none' stroke='black'/>
+<polygon fill='black' points='292.2,-51.94 301.35,-46.6 290.87,-45.06 292.2,-51.94' stroke='black'/>
+</g>
+
+<g class='node' id='node4'>
+<title>codec</title>
+<polygon fill='white' points='423.12,-107.25 311.88,-107.25 311.88,-70.75 423.12,-70.75 423.12,-107.25' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='367.5' y='-91.85'>commons&#45;codec:</text>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='367.5' y='-77.6'>commons&#45;codec:1.2</text>
+</g>
+
+<g class='edge' id='edge3'>
+<title>httpclient&#45;&gt;codec</title>
+<path d='M284.4,-73.69C289.75,-74.68 295.18,-75.7 300.55,-76.7' fill='none' stroke='black'/>
+<polygon fill='black' points='299.53,-80.07 310,-78.46 300.81,-73.19 299.53,-80.07' stroke='black'/>
+</g>
+</g>
+</svg>

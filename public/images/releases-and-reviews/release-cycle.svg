@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg height='117pt' preserveAspectRatio='xMidYMid meet' viewBox='0.00 0.00 350.00 116.50' width='350pt' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg'>
+<g class='graph' id='graph0' transform='scale(1 1) rotate(0) translate(4 112.5)'>
+
+<g class='node' id='node1'>
+<title>start</title>
+<ellipse cx='18' cy='-90.5' fill='white' rx='18' ry='18' stroke='black'/>
+</g>
+
+<g class='node' id='node2'>
+<title>plan</title>
+<polygon fill='white' points='108,-108.5 54,-108.5 54,-72.5 108,-72.5 108,-108.5' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='81' y='-86.22'>Plan</text>
+</g>
+
+<g class='edge' id='edge1'>
+<title>start&#45;&gt;plan</title>
+<path d='M36.22,-90.5C36.22,-90.5 42.4,-90.5 42.4,-90.5' fill='none' stroke='black'/>
+<polygon fill='black' points='42.4,-94 52.4,-90.5 42.4,-87 42.4,-94' stroke='black'/>
+</g>
+
+<g class='node' id='node3'>
+<title>development</title>
+<polygon fill='white' points='205.88,-108.5 126.12,-108.5 126.12,-72.5 205.88,-72.5 205.88,-108.5' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='166' y='-86.22'>Development</text>
+</g>
+
+<g class='edge' id='edge2'>
+<title>plan&#45;&gt;development</title>
+<path d='M108.36,-90.5C108.36,-90.5 114.18,-90.5 114.18,-90.5' fill='none' stroke='black'/>
+<polygon fill='black' points='114.18,-94 124.18,-90.5 114.18,-87 114.18,-94' stroke='black'/>
+</g>
+
+<g class='node' id='node4'>
+<title>milestone</title>
+<path d='M274.25,-108.5C274.25,-108.5 235.75,-108.5 235.75,-108.5 229.75,-108.5 223.75,-102.5 223.75,-96.5 223.75,-96.5 223.75,-84.5 223.75,-84.5 223.75,-78.5 229.75,-72.5 235.75,-72.5 235.75,-72.5 274.25,-72.5 274.25,-72.5 280.25,-72.5 286.25,-78.5 286.25,-84.5 286.25,-84.5 286.25,-96.5 286.25,-96.5 286.25,-102.5 280.25,-108.5 274.25,-108.5' fill='white' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='255' y='-86.22'>Milestone</text>
+</g>
+
+<g class='edge' id='edge3'>
+<title>development&#45;&gt;milestone</title>
+<path d='M206.33,-96.5C206.33,-96.5 211.83,-96.5 211.83,-96.5' fill='none' stroke='black'/>
+<polygon fill='black' points='211.83,-100 221.83,-96.5 211.83,-93 211.83,-100' stroke='black'/>
+</g>
+
+<g class='node' id='node5'>
+<title>rc</title>
+<path d='M186,-36.5C186,-36.5 146,-36.5 146,-36.5 140,-36.5 134,-30.5 134,-24.5 134,-24.5 134,-12 134,-12 134,-6 140,0 146,0 146,0 186,0 186,0 192,0 198,-6 198,-12 198,-12 198,-24.5 198,-24.5 198,-30.5 192,-36.5 186,-36.5' fill='white' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='166' y='-21.1'>Release</text>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='166' y='-6.85'>Candidate</text>
+</g>
+
+<g class='edge' id='edge5'>
+<title>development&#45;&gt;rc</title>
+<path d='M166,-72.27C166,-72.27 166,-48.49 166,-48.49' fill='none' stroke='black'/>
+<polygon fill='black' points='169.5,-48.49 166,-38.49 162.5,-48.49 169.5,-48.49' stroke='black'/>
+</g>
+
+<g class='edge' id='edge4'>
+<title>milestone&#45;&gt;development</title>
+<path d='M223.37,-84.5C223.37,-84.5 217.6,-84.5 217.6,-84.5' fill='none' stroke='black'/>
+<polygon fill='black' points='217.6,-81 207.6,-84.5 217.6,-88 217.6,-81' stroke='black'/>
+</g>
+
+<g class='node' id='node6'>
+<title>release_review</title>
+<polygon fill='white' points='270,-36.5 216,-36.5 216,0 270,0 270,-36.5' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='243' y='-21.1'>Release</text>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='243' y='-6.85'>Review</text>
+</g>
+
+<g class='edge' id='edge6'>
+<title>rc&#45;&gt;release_review</title>
+<path d='M198.21,-18.25C198.21,-18.25 204.05,-18.25 204.05,-18.25' fill='none' stroke='black'/>
+<polygon fill='black' points='204.05,-21.75 214.05,-18.25 204.05,-14.75 204.05,-21.75' stroke='black'/>
+</g>
+
+<g class='node' id='node7'>
+<title>release</title>
+<path d='M330,-36.25C330,-36.25 300,-36.25 300,-36.25 294,-36.25 288,-30.25 288,-24.25 288,-24.25 288,-12.25 288,-12.25 288,-6.25 294,-0.25 300,-0.25 300,-0.25 330,-0.25 330,-0.25 336,-0.25 342,-6.25 342,-12.25 342,-12.25 342,-24.25 342,-24.25 342,-30.25 336,-36.25 330,-36.25' fill='white' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='315' y='-13.97'>Release</text>
+</g>
+
+<g class='edge' id='edge7'>
+<title>release_review&#45;&gt;release</title>
+<path d='M270.22,-18.25C270.22,-18.25 276.23,-18.25 276.23,-18.25' fill='none' stroke='black'/>
+<polygon fill='black' points='276.23,-21.75 286.23,-18.25 276.23,-14.75 276.23,-21.75' stroke='black'/>
+</g>
+
+<g class='edge' id='edge8'>
+<title>release&#45;&gt;plan</title>
+<path d='M315,-36.38C315,-45.44 315,-54.5 315,-54.5 315,-54.5 81,-54.5 81,-54.5 81,-54.5 81,-60.56 81,-60.56' fill='none' stroke='black'/>
+<polygon fill='black' points='77.5,-60.56 81,-70.56 84.5,-60.56 77.5,-60.56' stroke='black'/>
+</g>
+</g>
+</svg>

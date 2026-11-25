@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg height='262pt' preserveAspectRatio='xMidYMid meet' viewBox='0.00 0.00 638.00 261.50' width='638pt' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg'>
+<g class='graph' id='graph0' transform='scale(1 1) rotate(0) translate(4 257.5)'>
+
+<g class='node' id='node1'>
+<title>doc</title>
+<polygon fill='white' points='144,-253.5 0,-253.5 0,-217 144,-217 144,-253.5' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='72' y='-238.1'>Prepare Review</text>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='72' y='-223.85'>Documentation</text>
+</g>
+
+<g class='node' id='node5'>
+<title>start</title>
+<polygon fill='white' points='144,-180.75 0,-180.75 0,-144.75 144,-144.75 144,-180.75' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='72' y='-158.47'>StartReview</text>
+</g>
+
+<g class='edge' id='edge1'>
+<title>doc&#45;&gt;start</title>
+<path d='M72,-216.82C72,-209.48 72,-200.74 72,-192.49' fill='none' stroke='black'/>
+<polygon fill='black' points='75.5,-192.49 72,-182.49 68.5,-192.49 75.5,-192.49' stroke='black'/>
+</g>
+
+<g class='node' id='node2'>
+<title>pmc</title>
+<polygon fill='white' points='306,-181 162,-181 162,-144.5 306,-144.5 306,-181' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='234' y='-165.6'>PMC</text>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='234' y='-151.35'>Approval</text>
+</g>
+
+<g class='node' id='node6'>
+<title>end</title>
+<polygon fill='white' points='387,-108.5 243,-108.5 243,-72 387,-72 387,-108.5' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='315' y='-93.1'>End</text>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='315' y='-78.85'>Release Review</text>
+</g>
+
+<g class='edge' id='edge2'>
+<title>pmc&#45;&gt;end</title>
+<path d='M254.02,-144.32C263.68,-135.91 275.46,-125.67 286.07,-116.43' fill='none' stroke='black'/>
+<polygon fill='black' points='288.26,-119.17 293.5,-109.96 283.66,-113.89 288.26,-119.17' stroke='black'/>
+</g>
+
+<g class='node' id='node3'>
+<title>emo</title>
+<polygon fill='white' points='468,-180.75 324,-180.75 324,-144.75 468,-144.75 468,-180.75' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='396' y='-158.47'>EMO Approval</text>
+</g>
+
+<g class='edge' id='edge3'>
+<title>emo&#45;&gt;end</title>
+<path d='M375.98,-144.32C366.32,-135.91 354.54,-125.67 343.93,-116.43' fill='none' stroke='black'/>
+<polygon fill='black' points='346.34,-113.89 336.5,-109.96 341.74,-119.17 346.34,-113.89' stroke='black'/>
+</g>
+
+<g class='node' id='node4'>
+<title>ballot</title>
+<polygon fill='white' points='630,-181 486,-181 486,-144.5 630,-144.5 630,-181' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='558' y='-165.6'>Specification Committee</text>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='558' y='-151.35'>Ballot</text>
+</g>
+
+<g class='edge' id='edge4'>
+<title>ballot&#45;&gt;end</title>
+<path d='M496.99,-144.05C463.49,-134.33 421.74,-122.22 386.68,-112.05' fill='none' stroke='black'/>
+<polygon fill='black' points='388.06,-108.8 377.48,-109.38 386.11,-115.53 388.06,-108.8' stroke='black'/>
+</g>
+
+<g class='edge' id='edge5'>
+<title>start&#45;&gt;end</title>
+<path d='M132.07,-144.32C165.69,-134.57 207.84,-122.34 243.2,-112.08' fill='none' stroke='black'/>
+<polygon fill='black' points='243.85,-115.54 252.48,-109.39 241.9,-108.81 243.85,-115.54' stroke='black'/>
+</g>
+
+<g class='node' id='node7'>
+<title>publish</title>
+<polygon fill='white' points='387,-36 243,-36 243,0 387,0 387,-36' stroke='black'/>
+<text font-family='Times,serif' font-size='12.00' text-anchor='middle' x='315' y='-13.72'>Publish Release</text>
+</g>
+
+<g class='edge' id='edge6'>
+<title>end&#45;&gt;publish</title>
+<path d='M315,-71.52C315,-64.31 315,-55.8 315,-47.74' fill='none' stroke='black'/>
+<polygon fill='black' points='318.5,-47.99 315,-37.99 311.5,-47.99 318.5,-47.99' stroke='black'/>
+</g>
+</g>
+</svg>

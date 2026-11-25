@@ -546,7 +546,7 @@ __metadata:
 
 "@eclipsefdn/solstice-nuxt@https://gitlab.eclipse.org/eclipsefdn/software-dev/frameworks-and-tools/solstice-nuxt.git#head=fix/assistant-mdc-answers&workspace=@eclipsefdn/solstice-nuxt":
   version: 0.4.1
-  resolution: "@eclipsefdn/solstice-nuxt@https://gitlab.eclipse.org/eclipsefdn/software-dev/frameworks-and-tools/solstice-nuxt.git#workspace=%40eclipsefdn%2Fsolstice-nuxt&commit=fd3d403887814a969e6c1102a20eff93015afd77"
+  resolution: "@eclipsefdn/solstice-nuxt@https://gitlab.eclipse.org/eclipsefdn/software-dev/frameworks-and-tools/solstice-nuxt.git#workspace=%40eclipsefdn%2Fsolstice-nuxt&commit=ad41c187703199bdf3bf80ce98b32d6ea719d973"
   dependencies:
     "@ai-sdk/mcp": "npm:^2.0.66"
     "@ai-sdk/vue": "npm:^4.0.166"
@@ -594,7 +594,7 @@ __metadata:
   peerDependenciesMeta:
     docus:
       optional: true
-  checksum: 10c0/7ae1eed6a5776a7c586ccddc3ca36a28d42975d609745f6f08c9cda23a8871491f077f2d9aeb27ae7c90a235cb23d97097cffae843557107e9cdb4d045d63493
+  checksum: 10c0/514ce86b3900cc8f9d02dd34145b21a9ccabde1e86983629ca749f8ca8fbe51090bf3e008ad0bdb32ace3c7bbb00ccfddd019146a7c9f614782fed3a8070ccea
   languageName: node
   linkType: hard
 

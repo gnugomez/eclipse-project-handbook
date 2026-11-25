@@ -546,7 +546,7 @@ __metadata:
 
 "@eclipsefdn/solstice-nuxt@https://gitlab.eclipse.org/eclipsefdn/software-dev/frameworks-and-tools/solstice-nuxt.git#head=feat/assistant-poc&workspace=@eclipsefdn/solstice-nuxt":
   version: 0.4.1
-  resolution: "@eclipsefdn/solstice-nuxt@https://gitlab.eclipse.org/eclipsefdn/software-dev/frameworks-and-tools/solstice-nuxt.git#workspace=%40eclipsefdn%2Fsolstice-nuxt&commit=f21e33dd69e64d5ec33f9bca7a848a786f8d83fd"
+  resolution: "@eclipsefdn/solstice-nuxt@https://gitlab.eclipse.org/eclipsefdn/software-dev/frameworks-and-tools/solstice-nuxt.git#workspace=%40eclipsefdn%2Fsolstice-nuxt&commit=c4a457e75f9a2753ebd90aaae8cfc83a1f4fc27f"
   dependencies:
     "@ai-sdk/mcp": "npm:^2.0.66"
     "@ai-sdk/vue": "npm:^4.0.166"
@@ -594,7 +594,7 @@ __metadata:
   peerDependenciesMeta:
     docus:
       optional: true
-  checksum: 10c0/69d8d735151b8135530b0100253d140e0fd81b665724966babf4631497105ab9ec0ff582e684aef7217ef2a729c2ce010925e0dd92410a4280461d600481e7e4
+  checksum: 10c0/5b947db13f340f66e3fc1ec773307b6a63ea139f1481d9c48d7faa5033cf07912bb8bafb51a96486d1a98c3a5562d7a7b93bd5673504222c5edd6ba1b6c7dbc6
   languageName: node
   linkType: hard
 

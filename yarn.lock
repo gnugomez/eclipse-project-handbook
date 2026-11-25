@@ -544,9 +544,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eclipsefdn/solstice-nuxt@https://gitlab.eclipse.org/eclipsefdn/software-dev/frameworks-and-tools/solstice-nuxt.git#head=feat/assistant-icon-search&workspace=@eclipsefdn/solstice-nuxt":
+"@eclipsefdn/solstice-nuxt@https://gitlab.eclipse.org/eclipsefdn/software-dev/frameworks-and-tools/solstice-nuxt.git#head=fix/assistant-mdc-answers&workspace=@eclipsefdn/solstice-nuxt":
   version: 0.4.1
-  resolution: "@eclipsefdn/solstice-nuxt@https://gitlab.eclipse.org/eclipsefdn/software-dev/frameworks-and-tools/solstice-nuxt.git#workspace=%40eclipsefdn%2Fsolstice-nuxt&commit=d35f3ddba1f38adf7b75fbbdf6467b902526139b"
+  resolution: "@eclipsefdn/solstice-nuxt@https://gitlab.eclipse.org/eclipsefdn/software-dev/frameworks-and-tools/solstice-nuxt.git#workspace=%40eclipsefdn%2Fsolstice-nuxt&commit=fd3d403887814a969e6c1102a20eff93015afd77"
   dependencies:
     "@ai-sdk/mcp": "npm:^2.0.66"
     "@ai-sdk/vue": "npm:^4.0.166"
@@ -594,7 +594,7 @@ __metadata:
   peerDependenciesMeta:
     docus:
       optional: true
-  checksum: 10c0/7320ebcbd66ba03e7854ada9e0d10cbc96a856bb4df6dc5a3f1bbc44d46d9640aaa2c80f816010840cc2c16e0667c23169c560cba920e66f1d60ee7f55b54910
+  checksum: 10c0/7ae1eed6a5776a7c586ccddc3ca36a28d42975d609745f6f08c9cda23a8871491f077f2d9aeb27ae7c90a235cb23d97097cffae843557107e9cdb4d045d63493
   languageName: node
   linkType: hard
 
@@ -6161,7 +6161,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "eclipse-project-handbook@workspace:."
   dependencies:
-    "@eclipsefdn/solstice-nuxt": "https://gitlab.eclipse.org/eclipsefdn/software-dev/frameworks-and-tools/solstice-nuxt.git#head=feat/assistant-icon-search&workspace=@eclipsefdn/solstice-nuxt"
+    "@eclipsefdn/solstice-nuxt": "https://gitlab.eclipse.org/eclipsefdn/software-dev/frameworks-and-tools/solstice-nuxt.git#head=fix/assistant-mdc-answers&workspace=@eclipsefdn/solstice-nuxt"
     "@iconify-json/fa6-brands": "npm:^1.2.6"
     "@iconify-json/fa6-regular": "npm:^1.2.4"
     "@iconify-json/fa6-solid": "npm:^1.2.4"

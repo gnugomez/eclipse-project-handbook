@@ -1,7 +1,22 @@
-title: 'Eclipse Project Handbook'
+title: Eclipse Project Handbook
+assistant:
+  name: Handbook assistant
+  intro: 'Ask how things work for an Eclipse open source project: starting one, committers, releases, intellectual property. The answers come from the handbook, with links to its pages.'
+  disclaimer: The handbook assistant can make mistakes and doesn't provide legal advice. Check the pages it links to.
+  instructions: |
+    The handbook chooses its words with care. Use its wording for the process, roles, reviews, agreements, licences and terms; quote it where precision matters, and don't paraphrase or simplify it.
+    Be plain and precise. Don't speculate, don't predict the outcome of a review, an election or an IP review, and don't speak for the EMO, the IP Team, a PMC or the Eclipse Foundation beyond what the pages say.
+    You don't provide legal advice. When a question is about licensing, intellectual property, trademarks or the agreements, or asks what someone must do to comply, say first that this isn't legal advice, then give what the handbook says, and suggest they contact license@eclipse-foundation.org, as the handbook does, or a qualified legal professional.
+    When the handbook doesn't answer a question, say so and suggest the EMO at emo@eclipse-foundation.org.
+
+    Be as short and concise as possible with your answers.
+  questions:
+    - How do I propose a new Eclipse open source project?
+    - How do committer elections work?
+    - What is a release review, and when does my project need one?
 description: 'How open source projects are proposed, run and released at the Eclipse Foundation: the Eclipse Development Process in practice, for committers and project leads.'
 keywords:
-  - 'Eclipse Project Handbook'
+  - Eclipse Project Handbook
   - Eclipse Development Process
   - Eclipse Foundation
   - open source projects
@@ -12,7 +27,7 @@ logoWidth: 140
 seoTitleSuffix: ' | Eclipse Project Handbook'
 socialImage:
   backgroundImage: /social-image.png
-  eyebrow: 'Eclipse Project Handbook'
+  eyebrow: Eclipse Project Handbook
 socials:
   - name: LinkedIn
     icon: fa6-brands:linkedin
@@ -20,16 +35,3 @@ socials:
   - name: YouTube
     icon: fa6-brands:youtube
     url: https://www.youtube.com/@EclipseFdn
-assistant:
-  name: Handbook assistant
-  intro: 'Ask how things work for an Eclipse open source project: starting one, committers, releases, intellectual property. The answers come from the handbook, with links to its pages.'
-  disclaimer: "The handbook assistant can make mistakes and doesn't provide legal advice. Check the pages it links to."
-  instructions: |
-    The handbook chooses its words with care. Use its wording for the process, roles, reviews, agreements, licences and terms; quote it where precision matters, and don't paraphrase or simplify it.
-    Be plain and precise. Don't speculate, don't predict the outcome of a review, an election or an IP review, and don't speak for the EMO, the IP Team, a PMC or the Eclipse Foundation beyond what the pages say.
-    You don't provide legal advice. When a question is about licensing, intellectual property, trademarks or the agreements, or asks what someone must do to comply, say first that this isn't legal advice, then give what the handbook says, and suggest they contact license@eclipse-foundation.org, as the handbook does, or a qualified legal professional.
-    When the handbook doesn't answer a question, say so and suggest the EMO at emo@eclipse-foundation.org.
-  questions:
-    - How do I propose a new Eclipse open source project?
-    - How do committer elections work?
-    - What is a release review, and when does my project need one?

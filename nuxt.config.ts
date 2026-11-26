@@ -35,9 +35,5 @@ export default defineNuxtConfig({
     features: { newsroom: false, membership: false, youtube: false, hubspot: false, assistant: true },
   },
 
-  // The assistant's model: one of Vercel's AI Gateway, whose key the server
-  // reads when it runs (AI_GATEWAY_API_KEY), so the image needs none. The
-  // gateway's free tier allows gpt-5-mini, not the provider's default
-  // (Claude); NUXT_ASSISTANT_MODEL sets another.
-  assistant: { provider: 'gateway', model: 'openai/gpt-5-mini' },
+  assistant: { provider: 'edenai', model: 'amazon/anthropic.claude-haiku-5-5' },
 })

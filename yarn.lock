@@ -32,6 +32,32 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@ai-sdk/openai-compatible@npm:3.0.93":
+  version: 3.0.93
+  resolution: "@ai-sdk/openai-compatible@npm:3.0.93"
+  dependencies:
+    "@ai-sdk/provider": "npm:4.0.39"
+    "@ai-sdk/provider-utils": "npm:5.0.82"
+  peerDependencies:
+    zod: ^3.25.76 || ^4.1.8
+  checksum: 10c0/d07ed4b9120b664a210adabecfe3c8b0b6924887ca4723c487decb50439a36cf029d5e41b33c2ea98c8439401b42ca280ca1114af3e5c92e3cbc11e712010fad
+  languageName: node
+  linkType: hard
+
+"@ai-sdk/provider-utils@npm:5.0.82":
+  version: 5.0.82
+  resolution: "@ai-sdk/provider-utils@npm:5.0.82"
+  dependencies:
+    "@ai-sdk/provider": "npm:4.0.39"
+    "@standard-schema/spec": "npm:^1.1.0"
+    "@workflow/serde": "npm:4.1.0"
+    eventsource-parser: "npm:^3.0.8"
+  peerDependencies:
+    zod: ^3.25.76 || ^4.1.8
+  checksum: 10c0/744caec14a7beda9dce9ea316d3b20376e45fa48dd3d39be262945bb4f4af3ce01cf23e68560c0895fa17db9e8bdfaf616f0ea55e0f2ed0ee5edc558028d7001
+  languageName: node
+  linkType: hard
+
 "@ai-sdk/provider-utils@npm:5.0.83, @ai-sdk/provider-utils@npm:^5.0.53":
   version: 5.0.83
   resolution: "@ai-sdk/provider-utils@npm:5.0.83"
@@ -544,11 +570,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eclipsefdn/solstice-nuxt@https://gitlab.eclipse.org/eclipsefdn/software-dev/frameworks-and-tools/solstice-nuxt.git#head=fix/assistant-mdc-answers&workspace=@eclipsefdn/solstice-nuxt":
+"@eclipsefdn/solstice-nuxt@https://gitlab.eclipse.org/eclipsefdn/software-dev/frameworks-and-tools/solstice-nuxt.git#head=feat/assistant-edenai-provider&workspace=@eclipsefdn/solstice-nuxt":
   version: 0.4.1
-  resolution: "@eclipsefdn/solstice-nuxt@https://gitlab.eclipse.org/eclipsefdn/software-dev/frameworks-and-tools/solstice-nuxt.git#workspace=%40eclipsefdn%2Fsolstice-nuxt&commit=ad41c187703199bdf3bf80ce98b32d6ea719d973"
+  resolution: "@eclipsefdn/solstice-nuxt@https://gitlab.eclipse.org/eclipsefdn/software-dev/frameworks-and-tools/solstice-nuxt.git#workspace=%40eclipsefdn%2Fsolstice-nuxt&commit=ca3a3c3f2d3464e900226e6739473b93fdf70c8b"
   dependencies:
     "@ai-sdk/mcp": "npm:^2.0.66"
+    "@ai-sdk/openai-compatible": "npm:3.0.93"
     "@ai-sdk/vue": "npm:^4.0.166"
     "@comark/vue": "npm:^0.9.2"
     "@nuxt/fonts": "npm:^0.14.0"
@@ -594,7 +621,7 @@ __metadata:
   peerDependenciesMeta:
     docus:
       optional: true
-  checksum: 10c0/514ce86b3900cc8f9d02dd34145b21a9ccabde1e86983629ca749f8ca8fbe51090bf3e008ad0bdb32ace3c7bbb00ccfddd019146a7c9f614782fed3a8070ccea
+  checksum: 10c0/8944b4827775a0bb4aad1f17fb72ab5e203d2b556800bb5945d63c0fee62ae625cd2c9ddfe19801c81534825ae863f04ead4809feb018f09ad61d84600f0a8dd
   languageName: node
   linkType: hard
 
@@ -6161,7 +6188,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "eclipse-project-handbook@workspace:."
   dependencies:
-    "@eclipsefdn/solstice-nuxt": "https://gitlab.eclipse.org/eclipsefdn/software-dev/frameworks-and-tools/solstice-nuxt.git#head=fix/assistant-mdc-answers&workspace=@eclipsefdn/solstice-nuxt"
+    "@eclipsefdn/solstice-nuxt": "https://gitlab.eclipse.org/eclipsefdn/software-dev/frameworks-and-tools/solstice-nuxt.git#head=feat/assistant-edenai-provider&workspace=@eclipsefdn/solstice-nuxt"
     "@iconify-json/fa6-brands": "npm:^1.2.6"
     "@iconify-json/fa6-regular": "npm:^1.2.4"
     "@iconify-json/fa6-solid": "npm:^1.2.4"

@@ -9,7 +9,7 @@ assistant:
     You don't provide legal advice. When a question is about licensing, intellectual property, trademarks or the agreements, or asks what someone must do to comply, say first that this isn't legal advice, then give what the handbook says, and suggest they contact license@eclipse-foundation.org, as the handbook does, or a qualified legal professional.
     When the handbook doesn't answer a question, say so and suggest the EMO at emo@eclipse-foundation.org.
 
-    Be as short and concise as possible with your answers.
+    Be as short and concise as possible with your answers, if possible keep answers single paragraph.
   questions:
     - How do I propose a new Eclipse open source project?
     - How do committer elections work?
